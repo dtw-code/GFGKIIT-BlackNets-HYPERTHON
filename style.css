@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    font-family:arial;
+    border:border-box;
+    color:white;
+}
+.header{
+    background-color:rgba(6,76,80,255);
+    height:80px;
+    border-color:white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    color: black;
+}
+.search-bar{
+    width:500px;
+    height:35px;
+    color:black;
+    font-size:1rem;
+    border-radius: 15px 15px 15px 15px; 
+   
+}
+.profile{
+    display:flex;
+    align-items:center;
+}
+.top-pic{
+    background-image:url("top-pic.png");
+    background-size:cover;
+    height:200px;
+    width:100%;
+}
